@@ -22,11 +22,13 @@
     <ClInclude Include="include\FindDMAAddy.h" />
     <ClInclude Include="include\FindProcessID.h" />
     <ClInclude Include="include\GetBaseModuleAddress.h" />
+    <ClInclude Include="mem.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\FindDMAAddy.cpp" />
     <ClCompile Include="src\FindProcessID.cpp" />
     <ClCompile Include="src\GetBaseModuleAddress.cpp" />
+    <ClCompile Include="src\mem.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>18.0</VCProjectVersion>

@@ -23,6 +23,9 @@
     <ClInclude Include="include\FindProcessID.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="mem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\FindDMAAddy.cpp">
@@ -32,6 +35,9 @@
       <Filter>source</Filter>
     </ClCompile>
     <ClCompile Include="src\FindProcessID.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mem.cpp">
       <Filter>source</Filter>
     </ClCompile>
   </ItemGroup>
