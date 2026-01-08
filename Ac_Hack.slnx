@@ -1,0 +1,9 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="external-Main/Internal-Main.vcxproj" Id="4240c231-b376-452c-872e-9e6244f2b61a" />
+  <Project Path="external/Internal.vcxproj" Id="e5bd64e1-446e-486e-914b-10ce93536fd0" />
+  <Project Path="FirstI-InternalHack/FirstI-InternalHack.vcxproj" Id="801d71be-99c2-4245-b494-4c865173c945" />
+</Solution>

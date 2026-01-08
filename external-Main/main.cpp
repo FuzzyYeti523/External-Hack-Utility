@@ -11,7 +11,7 @@ int main()
 	uintptr_t PlayerHealthAddress;
 	bool UseRecoil = false;
 	bool InfintyBollet = false;
-	bool InfintyHealth = true;
+	bool InfintyHealth = false;
 
 	ProcessID = FindProcessID(L"ac_client.exe");
 	if (ProcessID != NULL)
@@ -56,10 +56,12 @@ int main()
 				InfintyBollet = !InfintyBollet;
 				if (InfintyBollet == false)
 				{
+					std::cout << "Not Use Infinity Ammo Hack " << '\n';
 					mem::PatchEX((BYTE*)(BaseModuleAddress + 0x637E9), (BYTE*)"\xFF\x0E", 2, Hprocess);
 				}
 				else
 				{
+					std::cout << " Use Infinity Ammo Hack " << '\n';
 					mem::NopEX((BYTE*)(BaseModuleAddress + 0x637E9), 2, Hprocess);
 				}
 
